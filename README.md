@@ -16,6 +16,7 @@ A modern, full-stack todo application with a sleek UI and powerful task manageme
 ## 📚 Tech Stack
 
 ### Backend
+
 - **Node.js** - JavaScript runtime
 - **Express.js** - Web framework
 - **MongoDB** - NoSQL database
@@ -24,6 +25,7 @@ A modern, full-stack todo application with a sleek UI and powerful task manageme
 - **dotenv** - Environment variables management
 
 ### Frontend
+
 - **React** - UI library
 - **Vite** - Build tool and dev server
 - **Tailwind CSS** - Utility-first CSS framework
@@ -36,6 +38,7 @@ A modern, full-stack todo application with a sleek UI and powerful task manageme
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 - MongoDB running locally or a MongoDB Atlas connection string
@@ -43,12 +46,14 @@ A modern, full-stack todo application with a sleek UI and powerful task manageme
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/FrozenBiu/todoxv2.git
 cd todoxv2
 ```
 
 2. Install dependencies for both backend and frontend
+
 ```bash
 npm run build
 ```
@@ -56,6 +61,7 @@ npm run build
 ### Configuration
 
 1. Create a `.env` file in the `backend` directory:
+
 ```env
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
@@ -63,6 +69,7 @@ NODE_ENV=development
 ```
 
 2. Create a `.env` file in the `frontend` directory (if needed):
+
 ```env
 VITE_API_URL=http://localhost:5000
 ```
@@ -72,12 +79,14 @@ VITE_API_URL=http://localhost:5000
 #### Development Mode
 
 **Backend:**
+
 ```bash
 cd backend
 npm run dev
 ```
 
 **Frontend (in a new terminal):**
+
 ```bash
 cd frontend
 npm run dev
@@ -140,9 +149,11 @@ todoxv2/
 ## 🔌 API Endpoints
 
 ### Health Check
+
 - `GET /ping` - Server health check
 
 ### Tasks
+
 - `GET /tasks` - Get all tasks
 - `POST /tasks` - Create a new task
 - `GET /tasks/:id` - Get a specific task
@@ -152,17 +163,20 @@ todoxv2/
 ## 🛠️ Available Scripts
 
 ### Root Directory
+
 ```bash
 npm run build    # Install dependencies and build frontend
 ```
 
 ### Backend
+
 ```bash
 npm start        # Start production server
 npm run dev      # Start development server with hot reload
 ```
 
 ### Frontend
+
 ```bash
 npm run dev      # Start development server
 npm run build    # Build for production
@@ -173,6 +187,7 @@ npm run preview  # Preview production build
 ## 🎨 UI Components
 
 The frontend uses reusable UI components built with Radix UI and styled with Tailwind CSS:
+
 - Button
 - Card
 - Badge
